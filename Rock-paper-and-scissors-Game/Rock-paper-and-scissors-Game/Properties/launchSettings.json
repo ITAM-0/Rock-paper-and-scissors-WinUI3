@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Rock-paper-and-scissors-Game (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Rock-paper-and-scissors-Game (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
