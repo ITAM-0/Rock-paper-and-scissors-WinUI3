@@ -1,4 +1,4 @@
-﻿using Microsoft.UI;
+using Microsoft.UI;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
@@ -106,7 +106,7 @@ namespace Rock_paper_and_scissors_Game
             {
                 LabelResult.Text = "You Win";
                 p1Count++;
-                p1Result.Text = "You : "+p1Count.ToString();
+                p1Result.Text = "You : " + p1Count.ToString();
                 p1Line.Background = new SolidColorBrush(Colors.Green);
                 p2Line.Background = new SolidColorBrush(Colors.Red);
             }
@@ -130,7 +130,7 @@ namespace Rock_paper_and_scissors_Game
             {
                 LabelResult.Text = "CPU Win";
                 p2Count++;
-                p2Result.Text = p2Count.ToString()+" : CPU";
+                p2Result.Text = p2Count.ToString() + " : CPU";
                 p1Line.Background = new SolidColorBrush(Colors.Red);
                 p2Line.Background = new SolidColorBrush(Colors.Green);
             }
@@ -166,7 +166,7 @@ namespace Rock_paper_and_scissors_Game
             p1Count = 0;
             p2Count = 0;
             p1Result.Text = "You: " + p1Count.ToString();
-            p2Result.Text = p1Count.ToString()+" :CPU";
+            p2Result.Text = p1Count.ToString() + " :CPU";
             LabelResult.Text = "";
             p1Line.Background = new SolidColorBrush(Colors.Blue);
             p2Line.Background = new SolidColorBrush(Colors.Blue);

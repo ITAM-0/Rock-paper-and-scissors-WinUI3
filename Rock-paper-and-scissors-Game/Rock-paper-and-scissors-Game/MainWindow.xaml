@@ -1,4 +1,4 @@
-﻿<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
 <!-- Licensed under the MIT License. -->
 
 <Window
@@ -9,7 +9,6 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
 
     <StackPanel>
         <!-- Title Bar Panel -->
@@ -26,7 +25,7 @@
                 <TextBlock x:Name="p1Result" Style="{StaticResource TitleTextBlockStyle}" Margin="0,0,64,0">You: 0</TextBlock>
                 <TextBlock x:Name="p2Result" Style="{StaticResource TitleTextBlockStyle}" Margin="64,0,0,0">0 :CPU</TextBlock>
             </StackPanel>
-        
+
             <!-- Game Panel -->
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" 
                         Background="#f3f3f3" BorderThickness="1" BorderBrush="#e5e5e5"
@@ -52,7 +51,7 @@
                 <!-- Result Label -->
                 <TextBlock x:Name="LabelResult" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Center" ></TextBlock>
             </StackPanel>
-        
+
             <!-- Buttons Panel -->
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center"
                         Background="#f3f3f3" BorderThickness="1" BorderBrush="#e5e5e5"
@@ -76,7 +75,7 @@
                 </StackPanel>
 
                 <Line Stroke="#e5e5e5" X2="350" StrokeThickness="2"/>
-                
+
                 <!-- Settings Panel -->
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="Reset" Style="{StaticResource AccentButtonStyle}" 

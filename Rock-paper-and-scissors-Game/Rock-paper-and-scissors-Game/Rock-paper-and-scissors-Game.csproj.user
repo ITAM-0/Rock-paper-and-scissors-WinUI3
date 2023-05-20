@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <_LastSelectedProfileId>C:\Users\matis\Desktop\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Properties\PublishProfiles\win10-x64.pubxml</_LastSelectedProfileId>
-  </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <None Update="App.xaml">
       <SubType>Designer</SubType>
