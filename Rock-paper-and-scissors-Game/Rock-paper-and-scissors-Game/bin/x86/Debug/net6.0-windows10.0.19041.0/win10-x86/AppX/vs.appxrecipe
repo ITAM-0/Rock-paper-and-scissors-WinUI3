@@ -8,50 +8,50 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>57ff4d8f-bad3-4f3b-8c15-9d2016c48fdf</PackageIdentityName>
+    <PackageIdentityName>51f10ceb-eb2e-431c-97f7-e7e22da4e87b</PackageIdentityName>
     <PackageIdentityPublisher>CN=matis</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppX</LayoutDir>
-    <RegisteredManifestChecksum>13FFFC9C01178EBDB3A1EDE71CB4C486F498E5B48A6558DF9A9F762F94A03204</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>57ff4d8f-bad3-4f3b-8c15-9d2016c48fdf_1.0.0.0_x86__7t30d48mbfvzc</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>57ff4d8f-bad3-4f3b-8c15-9d2016c48fdf_7t30d48mbfvzc!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>57ff4d8f-bad3-4f3b-8c15-9d2016c48fdf</RegisteredPackageID>
+    <LayoutDir>C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A59031AEFEBF47BCFC7AE85EF62883D6195B95E8EBA6E50695409E1B48BAAFC4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>51f10ceb-eb2e-431c-97f7-e7e22da4e87b_1.0.0.0_x86__7t30d48mbfvzc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>51f10ceb-eb2e-431c-97f7-e7e22da4e87b_7t30d48mbfvzc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>51f10ceb-eb2e-431c-97f7-e7e22da4e87b</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=matis</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
+    <AppXManifest Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-20T14:40:54.107</Modified>
+      <Modified>2023-05-21T11:30:47.533</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-20T14:40:53.862</Modified>
+      <Modified>2023-05-21T11:30:47.118</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Rock-paper-and-scissors-Game.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Rock-paper-and-scissors-Game.runtimeconfig.json">
       <PackagePath>Rock-paper-and-scissors-Game.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-20T14:39:53.780</Modified>
+      <Modified>2023-05-21T11:08:18.586</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Rock-paper-and-scissors-Game.dll">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Rock-paper-and-scissors-Game.dll">
       <PackagePath>Rock-paper-and-scissors-Game.dll</PackagePath>
-      <Modified>2023-05-20T14:40:53.741</Modified>
+      <Modified>2023-05-21T11:30:47.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>Rock-paper-and-scissors-Game.exe</PackagePath>
-      <Modified>2023-05-20T14:40:53.748</Modified>
+      <Modified>2023-05-21T11:30:47.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Rock-paper-and-scissors-Game.deps.json">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Rock-paper-and-scissors-Game.deps.json">
       <PackagePath>Rock-paper-and-scissors-Game.deps.json</PackagePath>
-      <Modified>2023-05-20T14:39:53.776</Modified>
+      <Modified>2023-05-21T11:08:18.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matis\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.16\runtimes\win-x86\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1013,33 +1013,73 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\icon.ico">
+      <PackagePath>Assets\icon.ico</PackagePath>
+      <Modified>2023-05-21T10:53:39.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2023-04-30T22:31:29.022</Modified>
+      <Modified>2023-05-20T18:20:50.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Paper.jpg">
+      <PackagePath>Assets\Paper.jpg</PackagePath>
+      <Modified>2023-05-13T21:03:51.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Paper_left.jpg">
+      <PackagePath>Assets\Paper_left.jpg</PackagePath>
+      <Modified>2023-05-20T11:06:07.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Paper_right.jpg">
+      <PackagePath>Assets\Paper_right.jpg</PackagePath>
+      <Modified>2023-05-20T11:07:03.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Rock.jpg">
+      <PackagePath>Assets\Rock.jpg</PackagePath>
+      <Modified>2023-05-13T21:03:52.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Rock_left.jpg">
+      <PackagePath>Assets\Rock_left.jpg</PackagePath>
+      <Modified>2023-05-20T11:05:51.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Rock_right.jpg">
+      <PackagePath>Assets\Rock_right.jpg</PackagePath>
+      <Modified>2023-05-20T11:07:30.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Scissors.jpg">
+      <PackagePath>Assets\Scissors.jpg</PackagePath>
+      <Modified>2023-05-13T21:03:53.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Scissors_left.jpg">
+      <PackagePath>Assets\Scissors_left.jpg</PackagePath>
+      <Modified>2023-05-20T11:05:43.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Scissors_right.jpg">
+      <PackagePath>Assets\Scissors_right.jpg</PackagePath>
+      <Modified>2023-05-20T11:07:53.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-04-30T22:31:29.025</Modified>
+      <Modified>2023-05-20T18:20:32.054</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2023-04-30T22:31:29.026</Modified>
+      <Modified>2023-05-20T18:20:37.572</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2023-04-30T22:31:29.026</Modified>
+      <Modified>2023-05-20T18:20:34.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2023-04-30T22:31:29.027</Modified>
+      <Modified>2023-05-20T18:20:36.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2023-04-30T22:31:29.028</Modified>
+      <Modified>2023-05-20T18:20:38.802</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2023-04-30T22:31:29.028</Modified>
+      <Modified>2023-05-20T18:20:39.795</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

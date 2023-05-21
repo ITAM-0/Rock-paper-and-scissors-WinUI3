@@ -1,6 +1,3 @@
-<!-- Copyright (c) Microsoft Corporation and Contributors. -->
-<!-- Licensed under the MIT License. -->
-
 <Window
     x:Class="Rock_paper_and_scissors_Game.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -12,18 +9,17 @@
 
     <StackPanel>
         <!-- Title Bar Panel -->
-        <Grid x:Name="AppTitleBar" Grid.Column="1" VerticalAlignment="Top">
-            <TextBlock x:Name="AppTitle" Style="{StaticResource BodyStrongTextBlockStyle}"  Margin="8,8,8,8">Rock paper and scissors Game</TextBlock>
+        <Grid x:Name="AppTitleBar" VerticalAlignment="Top">
+            <!-- Title TextBlock -->
+            <TextBlock x:Name="AppTitle" Style="{StaticResource BodyStrongTextBlockStyle}" HorizontalAlignment="Center" Margin="8,8,8,8">Rock paper and scissors</TextBlock>
         </Grid>
-
-
 
         <!-- Main Panel -->
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
             <!-- Result Panel -->
             <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock x:Name="p1Result" Style="{StaticResource TitleTextBlockStyle}" Margin="0,0,64,0">You: 0</TextBlock>
-                <TextBlock x:Name="p2Result" Style="{StaticResource TitleTextBlockStyle}" Margin="64,0,0,0">0 :CPU</TextBlock>
+                <TextBlock x:Name="p1Result" Style="{StaticResource TitleTextBlockStyle}" Margin="0,0,64,0">You : 0</TextBlock>
+                <TextBlock x:Name="p2Result" Style="{StaticResource TitleTextBlockStyle}" Margin="64,0,0,0">0 : CPU</TextBlock>
             </StackPanel>
 
             <!-- Game Panel -->
@@ -36,20 +32,22 @@
                         <StackPanel x:Name="p1Line" Width="186" Height="16" 
                                 Background="Blue" CornerRadius="6" BorderThickness="2" BorderBrush="#e5e5e5"></StackPanel>
                         <Image x:Name="p1Icon" Source="/Assets/Paper_left.jpg" 
-                        Width="256" Height="256"
-                        Margin="10"/>
+                               Width="256" Height="256"
+                               Margin="10"/>
                     </StackPanel>
+                    
                     <!-- P2 Content Panel -->
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <StackPanel x:Name="p2Line" Width="186" Height="16" 
                                     Background="Blue" CornerRadius="6" BorderThickness="2" BorderBrush="#e5e5e5"></StackPanel>
                         <Image x:Name="p2Icon" Source="/Assets/Paper_right.jpg" 
-                        Width="256" Height="256"
-                        Margin="10"/>
+                               Width="256" Height="256"
+                               Margin="10"/>
                     </StackPanel>
                 </StackPanel>
+                
                 <!-- Result Label -->
-                <TextBlock x:Name="LabelResult" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Center" ></TextBlock>
+                <TextBlock x:Name="LabelResult" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Center" Foreground="Black"></TextBlock>
             </StackPanel>
 
             <!-- Buttons Panel -->
@@ -79,14 +77,8 @@
                 <!-- Settings Panel -->
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="Reset" Style="{StaticResource AccentButtonStyle}" 
-                        Width="96" Height="32" Margin="10"
+                        Width="330" Height="32" Margin="10"
                         Click="Reset_Click">Reset</Button>
-                    <Button x:Name="bt1" Style="{StaticResource AccentButtonStyle}" 
-                        Width="96" Height="32" Margin="10"
-                        >Easy</Button>
-                    <Button x:Name="bt2" Style="{StaticResource AccentButtonStyle}" 
-                        Width="96" Height="32" Margin="10"
-                        >Hard</Button>
                 </StackPanel>
             </StackPanel>
         </StackPanel>

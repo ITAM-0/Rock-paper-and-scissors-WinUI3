@@ -1187,11 +1187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matis\\Desktop\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game.csproj",
+      "projectUniqueName": "C:\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game.csproj",
       "projectName": "Rock-paper-and-scissors-Game",
-      "projectPath": "C:\\Users\\matis\\Desktop\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game.csproj",
+      "projectPath": "C:\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game.csproj",
       "packagesPath": "C:\\Users\\matis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matis\\Desktop\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\obj\\",
+      "outputPath": "C:\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1256,6 +1256,10 @@
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+            "version": "[6.0.16, 6.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
             "version": "[6.0.16, 6.0.16]"
           },
           {

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rj6azglQWqU3R8h+I8m0zFq3XGforElXwDqglqo59aWFKItMlc4MS0HWCY8zCR8FhWPl+TVv8ldtfo4M/gL1uA==",
+  "dgSpecHash": "e6+IXDdpMFJSVgzoFF1J12O61izA/5s6EKPZPJDfGBIU30HV9anSgRtP0cgBY9ja3D72BFO7u9KKmnoKSIUvPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matis\\Desktop\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game.csproj",
+  "projectFilePath": "C:\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\matis\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221109.1\\microsoft.windowsappsdk.1.2.221109.1.nupkg.sha512",
     "C:\\Users\\matis\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.16\\microsoft.netcore.app.runtime.win-x86.6.0.16.nupkg.sha512",
+    "C:\\Users\\matis\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.16\\microsoft.netcore.app.crossgen2.win-x64.6.0.16.nupkg.sha512",
     "C:\\Users\\matis\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
     "C:\\Users\\matis\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x86.6.0.16.nupkg.sha512",
     "C:\\Users\\matis\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.16\\microsoft.netcore.app.runtime.win-arm64.6.0.16.nupkg.sha512",

@@ -1,21 +1,21 @@
 using Microsoft.UI;
 using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Input;
+// using Microsoft.UI.Xaml.Controls;
+// using Microsoft.UI.Xaml.Controls.Primitives;
+// using Microsoft.UI.Xaml.Data;
+// using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Media.Imaging;
-using Microsoft.UI.Xaml.Navigation;
+// using Microsoft.UI.Xaml.Navigation;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Text.RegularExpressions;
-using Windows.ApplicationModel.Core;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+// using System.Collections.Generic;
+// using System.IO;
+// using System.Linq;
+// using System.Runtime.InteropServices.WindowsRuntime;
+// using System.Text.RegularExpressions;
+// using Windows.ApplicationModel.Core;
+// using Windows.Foundation;
+// using Windows.Foundation.Collections;
 
 // ========================================================================
 
@@ -28,32 +28,10 @@ namespace Rock_paper_and_scissors_Game
         public MainWindow()
         {
             this.InitializeComponent();
-
+            // Title bar settings
+            Title = "Rock paper and scissors";
             ExtendsContentIntoTitleBar = true;
             SetTitleBar(AppTitleBar);
-        }
-
-        // https://stackoverflow.com/questions/2706500/how-do-i-generate-a-random-integer-in-c
-        public int GenerateRandom(int min, int max)
-        {
-            var seed = Convert.ToInt32(Regex.Match(Guid.NewGuid().ToString(), @"\d+").Value);
-            return new Random(seed).Next(min, max);
-        }
-
-        public static class IntUtil
-        {
-            private static Random random;
-
-            private static void Init()
-            {
-                if (random == null) random = new Random();
-            }
-
-            public static int Random(int min, int max)
-            {
-                Init();
-                return random.Next(min, max);
-            }
         }
 
         int p1Count = 0;
@@ -140,21 +118,25 @@ namespace Rock_paper_and_scissors_Game
         public void Game(int x)
         {
             p1Choice = x;
-            p2Choice = IntUtil.Random(1, 4);
+            Random rnd = new Random();
+            p2Choice = rnd.Next(1, 4);
             updatePhotos(p1Choice, p2Choice);
             Win();
         }
 
+        // Rock Click button
         private void Rock_Click(object sender, RoutedEventArgs e)
         {
             Game(1);
         }
 
+        // Paper Click button
         private void Paper_Click(object sender, RoutedEventArgs e)
         {
             Game(2);
         }
 
+        // Scissors Click button
         private void Scissors_Click(object sender, RoutedEventArgs e)
         {
             Game(3);
@@ -165,8 +147,8 @@ namespace Rock_paper_and_scissors_Game
         {
             p1Count = 0;
             p2Count = 0;
-            p1Result.Text = "You: " + p1Count.ToString();
-            p2Result.Text = p1Count.ToString() + " :CPU";
+            p1Result.Text = "You : " + p1Count.ToString();
+            p2Result.Text = p1Count.ToString() + " : CPU";
             LabelResult.Text = "";
             p1Line.Background = new SolidColorBrush(Colors.Blue);
             p2Line.Background = new SolidColorBrush(Colors.Blue);

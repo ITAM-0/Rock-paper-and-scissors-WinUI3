@@ -1,1 +1,1 @@
-C:\Users\matis\Desktop\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game.csproj;x86
+C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game.csproj;x86
