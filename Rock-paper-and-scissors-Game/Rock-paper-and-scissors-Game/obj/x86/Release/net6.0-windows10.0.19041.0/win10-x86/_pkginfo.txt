@@ -1,0 +1,1 @@
+C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\bin\x86\Release\net6.0-windows10.0.19041.0\win10-x86\AppPackages\Rock-paper-and-scissors-Game_1.0.0.0_x86_Test\Rock-paper-and-scissors-Game_1.0.0.0_x86.msix
