@@ -1181,23 +1181,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matis\\.nuget\\packages\\": {},
+    "C:\\Users\\itam\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\C#\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game.csproj",
       "projectName": "Rock-paper-and-scissors-Game",
-      "projectPath": "C:\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game.csproj",
-      "packagesPath": "C:\\Users\\matis\\.nuget\\packages\\",
-      "outputPath": "C:\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\obj\\",
+      "projectPath": "\\\\Mac\\Home\\Desktop\\C#\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game.csproj",
+      "packagesPath": "C:\\Users\\itam\\.nuget\\packages\\",
+      "outputPath": "\\\\Mac\\Home\\Desktop\\C#\\Rock-paper-and-scissors-WinUI3\\Rock-paper-and-scissors-Game\\Rock-paper-and-scissors-Game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\matis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\itam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1206,7 +1206,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1248,31 +1247,27 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[6.0.16, 6.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x86",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -1280,15 +1275,15 @@
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-            "version": "[6.0.16, 6.0.16]"
+            "version": "[6.0.15, 6.0.15]"
           }
         ],
         "frameworkReferences": {
@@ -1299,7 +1294,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Rock_paper_and_scissors_Game
-build_property.ProjectDir = C:\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\
+build_property.ProjectDir = \\Mac\Home\Desktop\C#\Rock-paper-and-scissors-WinUI3\Rock-paper-and-scissors-Game\Rock-paper-and-scissors-Game\
